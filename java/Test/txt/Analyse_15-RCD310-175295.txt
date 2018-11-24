@@ -1,0 +1,51 @@
+
+Start Analyse: Wed Dec 17 17:02:23 2014
+
+Translation Memory: L:\Workbench\00_15\K3\00_15_K3.tmw
+
+L:\Jobs\15_Import_VW\export\15-RCD310-175295\Bilder\RCD+310.xml.ttx
+
+ Match Types  Segments        Words Percent Placeables
+ Context TM        838        8,644      87      1,471
+ Repetitions         0            0       0          0
+ 100%              148        1,272      13        346
+ 95% - 99%           3           25       0          0
+ 85% - 94%           1           21       0          6
+ 75% - 84%           2            5       0          3
+ 50% - 74%           0            0       0          0
+ No Match            0            0       0          0
+ Total             992        9,967     100      1,826
+
+ Chars/Word       6.85
+ Chars Total    68,309
+
+
+
+Analyse Total (1 file):
+
+ Match Types  Segments        Words Percent Placeables
+ Context TM        838        8,644      87      1,471
+ Repetitions         0            0       0          0
+ 100%              148        1,272      13        346
+ 95% - 99%           3           25       0          0
+ 85% - 94%           1           21       0          6
+ 75% - 84%           2            5       0          3
+ 50% - 74%           0            0       0          0
+ No Match            0            0       0          0
+ Total             992        9,967     100      1,826
+
+ Chars/Word       6.85
+ Chars Total    68,309
+
+
+
+Analyse finished successfully without errors!
+
+Wed Dec 17 17:02:27 2014
+================================================================================
+
+
+Create Project TM C:\temp_batch\LIVAS-tmp\Trados/0__projectTM.tmw
+Export finished successfully. 100 of 106 TUs exported.
+
+  

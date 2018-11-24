@@ -1,0 +1,29 @@
+c1;c2;c3;c4
+Call order;;;
+Call order number;15248;;
+Translation order number;335;;
+Job date;2015-06-08 16:20:16.645;;
+Delivery date;2015-08-24 13:51:43.0;;
+Collective account number;;;
+Account;;;
+Brand and location;VW_11;;
+Surname of customer;Jani Verdnik;;
+Department of customer;I/VK-33;;
+Telephone number of customer;+49-841-89-44188;;
+Fax number of customer;+49-841-89-8444188;;
+Document type;ODIS-Creator;;
+Document title;;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Number of files;53;;
+Total number of words;26072;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);0;0.000;0.000
+File repetitions (words which match across files);0;0.000;0.000
+Context (words which match in context);10690;0.000;0.000
+Repetitions;4443;0.000;0.000
+100 percent match (excluding multiple 100 % matches);8839;0.000;0.000
+95 - 99 percent match (including multiple 100 % matches);865;0.000;0.000
+75 - 94 percent match;945;0.000;0.000
+0 - 74 percent match;290;0.000;0.000
+Total;;;0.000

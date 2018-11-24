@@ -1,0 +1,51 @@
+
+Start Analyse: Thu Dec 18 10:43:16 2014
+
+Translation Memory: L:\Workbench\00_15\K3\00_15_K3.tmw
+
+L:\Jobs\15_Import_VW\export\15-RNS310-175261\Bilder\RNS+310%2C+RNS+315.xml.ttx
+
+ Match Types  Segments        Words Percent Placeables
+ Context TM      2,257       22,927     100      4,072
+ Repetitions         0            0       0          0
+ 100%                0            0       0          0
+ 95% - 99%           0            0       0          0
+ 85% - 94%           3            9       0          0
+ 75% - 84%           1            2       0          0
+ 50% - 74%           0            0       0          0
+ No Match            0            0       0          0
+ Total           2,261       22,938     100      4,072
+
+ Chars/Word       7.07
+ Chars Total   162,192
+
+
+
+Analyse Total (1 file):
+
+ Match Types  Segments        Words Percent Placeables
+ Context TM      2,257       22,927     100      4,072
+ Repetitions         0            0       0          0
+ 100%                0            0       0          0
+ 95% - 99%           0            0       0          0
+ 85% - 94%           3            9       0          0
+ 75% - 84%           1            2       0          0
+ 50% - 74%           0            0       0          0
+ No Match            0            0       0          0
+ Total           2,261       22,938     100      4,072
+
+ Chars/Word       7.07
+ Chars Total   162,192
+
+
+
+Analyse finished successfully without errors!
+
+Thu Dec 18 10:43:22 2014
+================================================================================
+
+
+Create Project TM C:\temp_batch\LIVAS-tmp\Trados/0__projectTM.tmw
+Export finished successfully. 4 of 8 TUs exported.
+
+  

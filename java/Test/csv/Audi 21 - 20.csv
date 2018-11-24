@@ -1,0 +1,28 @@
+c1;c2;c3;c4
+Call order;;;
+Call order number;1400;;
+Translation order number;20;;
+Job date;2015-06-09 13:19:42.495;;
+Delivery date;2015-06-30 00:00:00.0;;
+Collective account number;;;
+Account;;;
+Brand and location;AUDI_21;;
+Surname of customer;Inessa Sauer;;
+Department of customer;I/VK-34;;
+Telephone number of customer;+49-841-89-39317;;
+Fax number of customer;;;
+Document type;ODIS-Creator;;
+Document title;;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Number of files;51;;
+Total number of words;3695;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);0;;
+File repetitions (words which match across files);0;;
+Context (words which match in context);1590;;
+Repetitions;180;;
+100 percent match (excluding multiple 100 % matches);985;;
+95 - 99 percent match (including multiple 100 % matches);229;;
+75 - 94 percent match;449;;
+0 - 74 percent match;262;;
