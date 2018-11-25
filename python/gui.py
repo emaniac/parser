@@ -5,19 +5,33 @@ import datetime
 from tkinter.filedialog import askopenfilenames
 import logging
 from tkinter import messagebox
+import os
+import logic
 
 
-SIZE = 400, 700
+SIZE = 500, 800
 font = ("helvetica", 13, "bold")
 entry_font = ("helvetica", 11, )
-DATE_FORMAT = "20%y_%m_%d"
+DATE_FORMAT = "%d.%m.20%y"
 
 
 X1, X2 = 10, 75
-WIDTH = 200
+WIDTH = 400
 HEIGHT = 30
 LINING = 40
 START = 30
+
+def warning(message):
+    logging.warning(message)
+    messagebox.showwarning("Warning", message)
+
+def error(message):
+    logging.error(message)
+    messagebox.showerror("Error", message)
+
+def info(message):
+    logging.info(message)
+    messagebox.showinfo("Info", message)
 
 
 def init_root():
@@ -28,10 +42,48 @@ def init_root():
 
 FILES = None
 
+def default_dir():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    file = os.path.join(dir_path, "default.txt")
+    try:
+        with open(file) as f:
+            text = f.read().rstrip("\n")
+    except:
+        warning("Could not open {}. Create file \'default.txt\' in the same directory as gui.py "
+                "containing only one line with the default directory".format(file))
+        return False
+    if not os.path.isdir(text):
+        warning("Initial directory {} could not be found. Change it in default.txt".format(text))
+        return False
+    return text
+
 def choose_files():
-    FILES = list(askopenfilenames())
-    print(type(FILES))
-    print(FILES)
+    global FILES
+    FILES = list(askopenfilenames(initialdir=def_dir))
+    logging.info("selected files: {}".format(FILES))
+    if FILES:
+        files_dir = os.path.dirname(FILES[0])
+        files_dir = os.path.basename(files_dir)
+        ft_entry.insert(0, files_dir)
+
+        names = [os.path.basename(e) for e in FILES]
+        names = "\n".join(names)
+        logging.info("selected files {}".format(names))
+        files_label.delete('1.0', tk.END)
+        files_label.insert(1.0, names)
+
+def add_icon(root):
+    root_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+    icon_path = os.path.join(root_path, "icons", "icon_black_small.png")
+
+    icon = tk.Label(root,compound="top")
+    icon.lenna_image_png = tk.PhotoImage(file=icon_path)
+    icon['image'] = icon.lenna_image_png
+    icon.place(x=10, y=10, height=50, width=86)
+
+    assert os.path.isfile(icon_path)
+
+
 
 def add_files(root):
     Y = START + 0 * LINING
@@ -52,7 +104,6 @@ def add_date(root):
     tf0.place(x=X2 + offset, y=Y, width=WIDTH - offset, height=HEIGHT)
     return tf0
 
-
 def add_ft(root):
     Y = START + 2 * LINING
     l1 = tk.Label(root, text="FT: ", font=font, background='white')
@@ -71,6 +122,7 @@ def add_type(root):
 
     cb1 = ttk.Combobox(root, font=entry_font)
     cb1['values'] = options
+    cb1.current(0)
     cb1.place(x=X2, y=Y, width=WIDTH, height=HEIGHT)
     return cb1
 
@@ -83,6 +135,7 @@ def add_marke(root):
 
     cb2 = ttk.Combobox(root, font=entry_font)
     cb2['values'] = options
+    cb2.current(0)
     cb2.place(x=X2, y=Y, width=WIDTH, height=HEIGHT)
     return cb2
 
@@ -95,6 +148,7 @@ def add_scheme(root):
 
     cb3 = ttk.Combobox(root, font=entry_font)
     cb3['values'] = options
+    cb3.current(0)
     offset = 20
     cb3.place(x=X2 + offset, y=Y, width=WIDTH - offset, height=HEIGHT)
     return cb3
@@ -105,7 +159,7 @@ def add_output(root):
     l5.place(x=X1, y=Y, height=HEIGHT)
 
     tf2 = tk.Entry(root, font=entry_font)
-    tf2.insert(0, 'default text')
+    tf2.insert(0, "output.dar")
     offset = 40
     tf2.place(x=X2 + offset, y=Y, width=WIDTH - offset, height=HEIGHT)
     return tf2
@@ -116,8 +170,30 @@ def add_start(root):
     bt1 = tk.Button(root, text="Start", command=execute_parser, font=entry_font + ("bold",))
     bt1.place(x=X2 + WIDTH - width, y=Y, height=HEIGHT, width=100)
 
+def add_files_label(root):
+    Y = START + 8 * LINING
+
+    width, height = WIDTH, 400
+
+    l6 = tk.Label(root, text="Files: ", font=font, background='white')
+    l6.place(x=X1, y=Y, height=HEIGHT)
+
+    txt_frm = tk.Frame(root, width=width, height=height)
+    txt_frm.place(x=X2, y=Y, height = height, width = WIDTH)
+
+    # create a Text widget
+    txt = tk.Text(txt_frm, borderwidth=3, relief="sunken")
+    txt.config(font=("consolas", 12), undo=True, wrap='word')
+    txt.place(x=0, y=0, width = width, height = height)
+    return txt
+
 def parse_entry():
     entry = {'files' : FILES}
+    if not FILES:
+        message = "FILES not selected: {}".format(FILES)
+        logging.warning(message)
+        messagebox.showwarning("Warning", message)
+        return False
     for key, component in components.items():
         value = component.get()
         entry[key] = value
@@ -125,6 +201,7 @@ def parse_entry():
             message = "{} not selected.".format(key)
             logging.warning(message)
             messagebox.showwarning("Warning", message)
+            return False
     logging.info("entry: {}".format(entry))
     try:
         d = datetime.datetime.strptime(entry['date'], DATE_FORMAT)
@@ -132,13 +209,17 @@ def parse_entry():
         message = "wrong date format. Date is: {}, but should be in format {}".format(entry["date"], DATE_FORMAT)
         logging.error(message)
         messagebox.showerror("Error", message)
-        exit(1)
-
-    logging.info(d)
+        return False
+    return entry
 
 def execute_parser():
    logging.info("Executing parser")
-   parse_entry()
+   entry = parse_entry()
+   if not entry:
+       error("Did not correctly parse input from user.")
+   else:
+       logging.info("continuing with {}".format(entry))
+       logic.main(entry)
 
 def init_logging():
     logging.basicConfig(
@@ -146,12 +227,12 @@ def init_logging():
         level=0,
         handlers=[logging.FileHandler("/tmp/file.log"), logging.StreamHandler()])
 
-
-
 if __name__ == "__main__":
     init_logging()
     root = init_root()
+    def_dir = default_dir()
 
+    add_icon(root)
     add_files(root)
     date_entry = add_date(root)
     ft_entry = add_ft(root)
@@ -160,6 +241,7 @@ if __name__ == "__main__":
     scheme_combo = add_scheme(root)
     output_entry = add_output(root)
     add_start(root)
+    files_label = add_files_label(root)
 
     components = {"date" : date_entry, "ft" : ft_entry, "type" : type_combo, "marke" : marke_combo,
                   "scheme" : scheme_combo, "output" : output_entry}

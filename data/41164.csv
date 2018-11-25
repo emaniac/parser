@@ -1,0 +1,34 @@
+c1;c2;c3;c4
+Call order;;;
+Call order number;41164;;
+Translation order number;VRL009989;;
+Order date;2017-02-02 17:40:27.341;;
+Delivery date;2017-02-27 00:00:00.0;;
+Collective account number;;;
+Account assignment;49520000/8087;;
+Brand and location;VW_11;;
+Surname of customer;Anna-Christin Alarcón Covarrubias;;
+Department of customer;VST/2;;
+Telephone number of customer;+49-5361-9-74683;;
+Fax number of customer;;;
+Document type;RL;;
+Document subtype;Fahrwerk;;
+Document title;V13.0_Golf_2013_Bremsanlage;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Vehicle data;;;
+Model key;Vehicle model;Year of launch;Model year
+5G1;Golf;2013;0
+BQ1;Golf Variant;2017;0
+Number of files;1;;
+Total number of words;15665;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);520;0,000;0,000
+File repetitions (words that match across files);0;0,000;0,000
+Context (words that match in context);14481;0,000;0,000
+Repetitions;80;0,000;0,000
+100% match (excluding multiple 100% matches);442;0,000;0,000
+95 - 99% match (including multiple 100 % matches);56;0,000;0,000
+75 - 94% match;77;0,000;0,000
+0 - 74% match;9;0,000;0,000
+Total;;;0,000

@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='windows-1250' ?>
+<Import>
+<Order><OrderName>VW_11-VRL012489</OrderName>
+<Customer>Porsche Česká republika s.r.o.</Customer>
+<Marke>VW</Marke>
+<CatNum></CatNum>
+<Type>RLF</Type>
+<Section></Section>
+<DateIn>22.11.2018</DateIn>
+<Termin>17.12.2018</Termin>
+<NameGe></NameGe>
+<Name>V5.0_T-Roc_2018_Ratgeber Räder, Reifen</Name>
+<AnalyseScheme>VW 08</AnalyseScheme>
+<ANXTranslated>2950</ANXTranslated>
+<ANRep>0</ANRep>
+<AN100>256</AN100>
+<AN99_95>1</AN99_95>
+<AN94_85>0</AN94_85>
+<AN84_75>12</AN84_75>
+<AN74_50>0</AN74_50>
+<AN0>6</AN0>
+<ANTotal>3225</ANTotal>
+<FT>042</FT>
+<AnalyseLog>c1;c2;c3;c4
+Call order;;;
+Call order number;89085;;
+Translation order number;VRL012489;;
+Order date;2018-11-22 08:30:53.213;;
+Delivery date;2018-12-17 00:00:00.0;;
+Collective account number;;;
+Account assignment;49520000/8087;;
+Brand and location;VW_11;;
+Surname of customer;Agathe Jezyna;;
+Department of customer;VST/Zb;;
+Telephone number of customer;05361-936736;;
+Fax number of customer;;;
+Document type;RL;;
+Document subtype;Fahrwerk;;
+Document title;V5.0_T-Roc_2018_Ratgeber Räder, Reifen;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Vehicle data;;;
+Model key;Vehicle model;Year of launch;Model year
+A11;T-Roc;2018;0
+Number of files;1;;
+Total number of words;3225;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);374;0,000;0,000
+File repetitions (words that match across files);0;0,000;0,000
+Context (words that match in context);2576;0,000;0,000
+Repetitions;0;0,000;0,000
+100% match (excluding multiple 100% matches);256;0,000;0,000
+95 - 99% match (including multiple 100 % matches);1;0,000;0,000
+75 - 94% match;12;0,000;0,000
+0 - 74% match;6;0,000;0,000
+Total;;;0,000
+
+</AnalyseLog>
+</Order>
+<Order><OrderName>VW_11-VRL012488</OrderName>
+<Customer>Porsche Česká republika s.r.o.</Customer>
+<Marke>VW</Marke>
+<CatNum></CatNum>
+<Type>RLF</Type>
+<Section></Section>
+<DateIn>22.11.2018</DateIn>
+<Termin>17.12.2018</Termin>
+<NameGe></NameGe>
+<Name>V10.0_Golf Variant_2017_Ratgeber Räder, Reifen</Name>
+<AnalyseScheme>VW 08</AnalyseScheme>
+<ANXTranslated>9319</ANXTranslated>
+<ANRep>10</ANRep>
+<AN100>696</AN100>
+<AN99_95>5</AN99_95>
+<AN94_85>0</AN94_85>
+<AN84_75>6</AN84_75>
+<AN74_50>0</AN74_50>
+<AN0>0</AN0>
+<ANTotal>10036</ANTotal>
+<FT>042</FT>
+<AnalyseLog>c1;c2;c3;c4
+Call order;;;
+Call order number;89086;;
+Translation order number;VRL012488;;
+Order date;2018-11-22 08:31:01.428;;
+Delivery date;2018-12-17 00:00:00.0;;
+Collective account number;;;
+Account assignment;49520000/8087;;
+Brand and location;VW_11;;
+Surname of customer;Agathe Jezyna;;
+Department of customer;VST/Zb;;
+Telephone number of customer;05361-936736;;
+Fax number of customer;;;
+Document type;RL;;
+Document subtype;Fahrwerk;;
+Document title;V10.0_Golf Variant_2017_Ratgeber Räder, Reifen;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Vehicle data;;;
+Model key;Vehicle model;Year of launch;Model year
+BV5;Golf Variant;2017;0
+Number of files;1;;
+Total number of words;10036;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);1321;0,000;0,000
+File repetitions (words that match across files);0;0,000;0,000
+Context (words that match in context);7998;0,000;0,000
+Repetitions;10;0,000;0,000
+100% match (excluding multiple 100% matches);696;0,000;0,000
+95 - 99% match (including multiple 100 % matches);5;0,000;0,000
+75 - 94% match;6;0,000;0,000
+0 - 74% match;0;0,000;0,000
+Total;;;0,000
+
+</AnalyseLog>
+</Order>
+<Order><OrderName>VW_11-VRL012490</OrderName>
+<Customer>Porsche Česká republika s.r.o.</Customer>
+<Marke>VW</Marke>
+<CatNum></CatNum>
+<Type>RLF</Type>
+<Section></Section>
+<DateIn>22.11.2018</DateIn>
+<Termin>17.12.2018</Termin>
+<NameGe></NameGe>
+<Name>V12.0_Touran_2016_Ratgeber Räder, Reifen</Name>
+<AnalyseScheme>VW 08</AnalyseScheme>
+<ANXTranslated>2807</ANXTranslated>
+<ANRep>1</ANRep>
+<AN100>254</AN100>
+<AN99_95>9</AN99_95>
+<AN94_85>0</AN94_85>
+<AN84_75>6</AN84_75>
+<AN74_50>0</AN74_50>
+<AN0>0</AN0>
+<ANTotal>3077</ANTotal>
+<FT>042</FT>
+<AnalyseLog>c1;c2;c3;c4
+Call order;;;
+Call order number;89089;;
+Translation order number;VRL012490;;
+Order date;2018-11-22 08:31:25.058;;
+Delivery date;2018-12-17 00:00:00.0;;
+Collective account number;;;
+Account assignment;49520000/8087;;
+Brand and location;VW_11;;
+Surname of customer;Agathe Jezyna;;
+Department of customer;VST/Zb;;
+Telephone number of customer;05361-936736;;
+Fax number of customer;;;
+Document type;RL;;
+Document subtype;Fahrwerk;;
+Document title;V12.0_Touran_2016_Ratgeber Räder, Reifen;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Vehicle data;;;
+Model key;Vehicle model;Year of launch;Model year
+5T1;Touran;2016;0
+Number of files;1;;
+Total number of words;3077;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);319;0,000;0,000
+File repetitions (words that match across files);0;0,000;0,000
+Context (words that match in context);2488;0,000;0,000
+Repetitions;1;0,000;0,000
+100% match (excluding multiple 100% matches);254;0,000;0,000
+95 - 99% match (including multiple 100 % matches);9;0,000;0,000
+75 - 94% match;6;0,000;0,000
+0 - 74% match;0;0,000;0,000
+Total;;;0,000
+
+</AnalyseLog>
+</Order>
+<Order><OrderName>VW_11-VRL012499</OrderName>
+<Customer>Porsche Česká republika s.r.o.</Customer>
+<Marke>VW</Marke>
+<CatNum></CatNum>
+<Type>RLF</Type>
+<Section></Section>
+<DateIn>22.11.2018</DateIn>
+<Termin>17.12.2018</Termin>
+<NameGe></NameGe>
+<Name>V3.0_Touareg_2018_Ratgeber Räder, Reifen</Name>
+<AnalyseScheme>VW 08</AnalyseScheme>
+<ANXTranslated>1829</ANXTranslated>
+<ANRep>70</ANRep>
+<AN100>125</AN100>
+<AN99_95>42</AN99_95>
+<AN94_85>0</AN94_85>
+<AN84_75>7</AN84_75>
+<AN74_50>0</AN74_50>
+<AN0>0</AN0>
+<ANTotal>2073</ANTotal>
+<FT>042</FT>
+<AnalyseLog>c1;c2;c3;c4
+Call order;;;
+Call order number;89137;;
+Translation order number;VRL012499;;
+Order date;2018-11-22 12:24:24.592;;
+Delivery date;2018-12-17 00:00:00.0;;
+Collective account number;;;
+Account assignment;49520000/8087;;
+Brand and location;VW_11;;
+Surname of customer;Agathe Jezyna;;
+Department of customer;VST/Zb;;
+Telephone number of customer;05361-936736;;
+Fax number of customer;;;
+Document type;RL;;
+Document subtype;Fahrwerk;;
+Document title;V3.0_Touareg_2018_Ratgeber Räder, Reifen;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Vehicle data;;;
+Model key;Vehicle model;Year of launch;Model year
+CR7;Touareg;2018;0
+Number of files;1;;
+Total number of words;2073;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);159;0,000;0,000
+File repetitions (words that match across files);0;0,000;0,000
+Context (words that match in context);1670;0,000;0,000
+Repetitions;70;0,000;0,000
+100% match (excluding multiple 100% matches);125;0,000;0,000
+95 - 99% match (including multiple 100 % matches);42;0,000;0,000
+75 - 94% match;7;0,000;0,000
+0 - 74% match;0;0,000;0,000
+Total;;;0,000
+
+</AnalyseLog>
+</Order>
+</Import>
