@@ -7,6 +7,10 @@ import logging
 from tkinter import messagebox
 import os
 import logic
+from platform import platform
+
+WIN7 = "Windows-7" in platform()
+WIN10 = "Windows-10" in platform()
 
 
 SIZE = 500, 800
@@ -115,7 +119,7 @@ def add_ft(root):
 
 def add_type(root):
     Y = START + 3 * LINING
-    options = ("RLF", "Palubní", "ISLP", "WT", "VAS", "KDVDB")
+    options = ("RLF", "Palubn\u00ed", "ISLP", "WT", "VAS", "KDVDB")
 
     l2 = tk.Label(root, text="Type: ", font=font, background='white')
     l2.place(x=X1, y=Y, height=25)
@@ -222,10 +226,17 @@ def execute_parser():
        logic.main(entry)
 
 def init_logging():
+    if WIN7:
+        dest = "C:\\Users\\jirka\\Desktop\\Parser\\parser-home\\parser-home\\python\\log.txt"
+    elif WIN10:
+        "C:/Users/jan/Documents/Projects/parser/python/file.log"
+    else:
+        error("Not supported on this operating system: {}".format(platform()))
+
     logging.basicConfig(
         format='%(asctime)s:%(levelname)s: %(message)s',
         level=0,
-        handlers=[logging.FileHandler("/tmp/file.log"), logging.StreamHandler()])
+        handlers=[logging.FileHandler(dest), logging.StreamHandler()])
 
 if __name__ == "__main__":
     init_logging()

@@ -1,351 +1,27 @@
 <?xml version='1.0' encoding='windows-1250' ?>
-<Import>
-    <Order>
-        <OrderName>2577-KDVDB</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-22 16:27:30.0</Termin>
-        <NameGe></NameGe>
-        <Name></Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>8</ANXTranslated>
-        <ANXTranslated>121</ANXTranslated>
-        <AN100>207</AN100>
-        <AN99_95>13</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>184</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>440</AN0>
-        <ANTotal>973</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;41081;;
-Translation order number;2577-KDVDB;;
-Order date;2017-01-31 16:27:30.421;;
-Delivery date;2017-02-22 16:27:30.0;;
-Collective account number;;;
-Account assignment;49520000/1946;;
-Brand and location;VW_11;;
-Surname of customer;ELENA VON ELLING;;
-Department of customer;VST-1/3;;
-Telephone number of customer;+49-5361-9-33816;;
-Fax number of customer;;;
-Document type;KDVDB;;
-Document subtype;Fahrzeugelektrik;;
-Document title;;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;2;;
-Total number of words;973;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);0;;
-File repetitions (words that match across files);0;;
-Context (words that match in context);8;;
-Repetitions;121;;
-100% match (excluding multiple 100% matches);207;;
-95 - 99% match (including multiple 100 % matches);13;;
-75 - 94% match;184;;
-0 - 74% match;440;;
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL009989</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-27 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V13.0_Golf_2013_Bremsanlage</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>15001</ANXTranslated>
-        <ANXTranslated>80</ANXTranslated>
-        <AN100>442</AN100>
-        <AN99_95>56</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>77</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>9</AN0>
-        <ANTotal>15665</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;41164;;
-Translation order number;VRL009989;;
-Order date;2017-02-02 17:40:27.341;;
-Delivery date;2017-02-27 00:00:00.0;;
-Collective account number;;;
-Account assignment;49520000/8087;;
-Brand and location;VW_11;;
-Surname of customer;Anna-Christin Alarcón Covarrubias;;
-Department of customer;VST/2;;
-Telephone number of customer;+49-5361-9-74683;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Fahrwerk;;
-Document title;V13.0_Golf_2013_Bremsanlage;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Vehicle data;;;
-Model key;Vehicle model;Year of launch;Model year
-5G1;Golf;2013;0
-BQ1;Golf Variant;2017;0
-Number of files;1;;
-Total number of words;15665;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);520;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);14481;0,000;0,000
-Repetitions;80;0,000;0,000
-100% match (excluding multiple 100% matches);442;0,000;0,000
-95 - 99% match (including multiple 100 % matches);56;0,000;0,000
-75 - 94% match;77;0,000;0,000
-0 - 74% match;9;0,000;0,000
-Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VKAH000004</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-27 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V3.0</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>33</ANXTranslated>
-        <ANXTranslated>792</ANXTranslated>
-        <AN100>1864</AN100>
-        <AN99_95>748</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>563</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>4457</AN0>
-        <ANTotal>8457</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;41175;;
-Translation order number;VKAH000004;;
-Order date;2017-02-03 11:09:06.543;;
-Delivery date;2017-02-27 00:00:00.0;;
-Collective account number;;;
-Account assignment;49520000/8087;;
-Brand and location;VW_11;;
-Surname of customer;Anna-Christin Alarcón Covarrubias;;
-Department of customer;VST/2;;
-Telephone number of customer;+49-5361-9-74683;;
-Fax number of customer;;;
-Document type;KI_KAH;;
-Document subtype;;;
-Document title;V3.0;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;1;;
-Total number of words;8457;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);0;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);33;0,000;0,000
-Repetitions;792;0,000;0,000
-100% match (excluding multiple 100% matches);1864;0,000;0,000
-95 - 99% match (including multiple 100 % matches);748;0,000;0,000
-75 - 94% match;563;0,000;0,000
-0 - 74% match;4457;0,000;0,000
-Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>585</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-17 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name></Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>14</ANXTranslated>
-        <ANXTranslated>2</ANXTranslated>
-        <AN100>7</AN100>
-        <AN99_95>0</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>11</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>5</AN0>
-        <ANTotal>39</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;41296;;
-Translation order number;585;;
-Order date;2017-02-06 08:25:52.474;;
-Delivery date;2017-02-17 00:00:00.0;;
-Collective account number;;;
-Account assignment;;;
-Brand and location;VW_11;;
-Surname of customer;ELENA VON ELLING;;
-Department of customer;VST-1/3;;
-Telephone number of customer;+49-5361-9-33816;;
-Fax number of customer;;;
-Document type;ODIS-Creator;;
-Document subtype;Fahrzeugelektrik;;
-Document title;;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;4;;
-Total number of words;39;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);0;;
-File repetitions (words that match across files);0;;
-Context (words that match in context);14;;
-Repetitions;2;;
-100% match (excluding multiple 100% matches);7;;
-95 - 99% match (including multiple 100 % matches);0;;
-75 - 94% match;11;;
-0 - 74% match;5;;</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>586</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-17 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name></Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>20</ANXTranslated>
-        <ANXTranslated>57</ANXTranslated>
-        <AN100>12</AN100>
-        <AN99_95>0</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>4</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>70</AN0>
-        <ANTotal>163</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;41297;;
-Translation order number;586;;
-Order date;2017-02-06 08:26:00.877;;
-Delivery date;2017-02-17 00:00:00.0;;
-Collective account number;;;
-Account assignment;;;
-Brand and location;VW_11;;
-Surname of customer;ELENA VON ELLING;;
-Department of customer;VST-1/3;;
-Telephone number of customer;+49-5361-9-33816;;
-Fax number of customer;;;
-Document type;ODIS-Creator;;
-Document subtype;Fahrzeugelektrik;;
-Document title;;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;6;;
-Total number of words;163;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);0;;
-File repetitions (words that match across files);0;;
-Context (words that match in context);20;;
-Repetitions;57;;
-100% match (excluding multiple 100% matches);12;;
-95 - 99% match (including multiple 100 % matches);0;;
-75 - 94% match;4;;
-0 - 74% match;70;;
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL009912</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-21 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V11.0_Amarok_2011_Automatisches Getriebe 0CM - 8 Gang</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>7085</ANXTranslated>
-        <ANXTranslated>48</ANXTranslated>
-        <AN100>156</AN100>
-        <AN99_95>20</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>0</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>1</AN0>
-        <ANTotal>7310</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;1208158;;
-Translation order number;VRL009912;;
-Order date;2017-02-01 06:32:26.105;;
-Delivery date;2017-02-21 00:00:00.0;;
-Collective account number;;;
-Account assignment;48395000/2945;;
-Brand and location;VW_12;;
-Surname of customer;Darius Porebski;;
-Department of customer;A-GHET-TW;;
-Telephone number of customer;+49-5361-8389-9257;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Kraftübertragung;;
-Document title;V11.0_Amarok_2011_Automatisches Getriebe 0CM - 8 Gang;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;1;;
-Total number of words;7310;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);1253;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);5832;0,000;0,000
-Repetitions;48;0,000;0,000
-100% match (excluding multiple 100% matches);156;0,000;0,000
-95 - 99% match (including multiple 100 % matches);20;0,000;0,000
-75 - 94% match;0;0,000;0,000
-0 - 74% match;1;0,000;0,000
-Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL009899</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V4.0_Crafter_2017_Kommunikation</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>5386</ANXTranslated>
-        <ANXTranslated>202</ANXTranslated>
-        <AN100>539</AN100>
-        <AN99_95>310</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>505</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>502</AN0>
-        <ANTotal>7444</ANTotal>
-        <FT>data</FT>
+<Import>
+    <Order>
+        <OrderName>VRL009899</OrderName>
+        <Customer>Porsche Česká republika s.r.o.</Customer>
+        <Marke>VW</Marke>
+        <CatNum></CatNum>
+        <Type>RLF</Type>
+        <Section></Section>
+        <DateIn>16.12.2018</DateIn>
+        <Termin>2017-02-22 00:00:00.0</Termin>
+        <NameGe></NameGe>
+        <Name>V4.0_Crafter_2017_Kommunikation</Name>
+        <AnalyseScheme>VW 08</AnalyseScheme>
+        <ANXTranslated>5386</ANXTranslated>
+        <ANXTranslated>202</ANXTranslated>
+        <AN100>539</AN100>
+        <AN99_95>310</AN99_95>
+        <AN94_85>0</AN94_85>
+        <AN84_75>505</AN84_75>
+        <AN74_50>0</AN74_50>
+        <AN0>502</AN0>
+        <ANTotal>7444</ANTotal>
+        <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
 Call order;;;
 Call order number;1208205;;
@@ -376,30 +52,30 @@ Repetitions;202;0,000;0,000
 75 - 94% match;505;0,000;0,000
 0 - 74% match;502;0,000;0,000
 Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL009906</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V3.0_Crafter_2017_Automatisches Getriebe 09Q - 8 Gang</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>1256</ANXTranslated>
-        <ANXTranslated>73</ANXTranslated>
-        <AN100>137</AN100>
-        <AN99_95>184</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>75</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>44</AN0>
-        <ANTotal>1769</ANTotal>
-        <FT>data</FT>
+</AnalyseLog>
+    </Order>
+    <Order>
+        <OrderName>VRL009906</OrderName>
+        <Customer>Porsche Česká republika s.r.o.</Customer>
+        <Marke>VW</Marke>
+        <CatNum></CatNum>
+        <Type>RLF</Type>
+        <Section></Section>
+        <DateIn>16.12.2018</DateIn>
+        <Termin>2017-02-22 00:00:00.0</Termin>
+        <NameGe></NameGe>
+        <Name>V3.0_Crafter_2017_Automatisches Getriebe 09Q - 8 Gang</Name>
+        <AnalyseScheme>VW 08</AnalyseScheme>
+        <ANXTranslated>1256</ANXTranslated>
+        <ANXTranslated>73</ANXTranslated>
+        <AN100>137</AN100>
+        <AN99_95>184</AN99_95>
+        <AN94_85>0</AN94_85>
+        <AN84_75>75</AN84_75>
+        <AN74_50>0</AN74_50>
+        <AN0>44</AN0>
+        <ANTotal>1769</ANTotal>
+        <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
 Call order;;;
 Call order number;1208241;;
@@ -430,30 +106,30 @@ Repetitions;73;0,000;0,000
 75 - 94% match;75;0,000;0,000
 0 - 74% match;44;0,000;0,000
 Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL009908</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V4.0_Crafter_2017_Kardanwelle und Achsantrieb hinten</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>1596</ANXTranslated>
-        <ANXTranslated>286</ANXTranslated>
-        <AN100>163</AN100>
-        <AN99_95>111</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>131</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>122</AN0>
-        <ANTotal>2409</ANTotal>
-        <FT>data</FT>
+</AnalyseLog>
+    </Order>
+    <Order>
+        <OrderName>VRL009908</OrderName>
+        <Customer>Porsche Česká republika s.r.o.</Customer>
+        <Marke>VW</Marke>
+        <CatNum></CatNum>
+        <Type>RLF</Type>
+        <Section></Section>
+        <DateIn>16.12.2018</DateIn>
+        <Termin>2017-02-22 00:00:00.0</Termin>
+        <NameGe></NameGe>
+        <Name>V4.0_Crafter_2017_Kardanwelle und Achsantrieb hinten</Name>
+        <AnalyseScheme>VW 08</AnalyseScheme>
+        <ANXTranslated>1596</ANXTranslated>
+        <ANXTranslated>286</ANXTranslated>
+        <AN100>163</AN100>
+        <AN99_95>111</AN99_95>
+        <AN94_85>0</AN94_85>
+        <AN84_75>131</AN84_75>
+        <AN74_50>0</AN74_50>
+        <AN0>122</AN0>
+        <ANTotal>2409</ANTotal>
+        <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
 Call order;;;
 Call order number;1208255;;
@@ -484,30 +160,30 @@ Repetitions;286;0,000;0,000
 75 - 94% match;131;0,000;0,000
 0 - 74% match;122;0,000;0,000
 Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL009900</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V6.0_Crafter_2017_Heizung, Klimaanlage</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>15547</ANXTranslated>
-        <ANXTranslated>257</ANXTranslated>
-        <AN100>1253</AN100>
-        <AN99_95>171</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>215</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>230</AN0>
-        <ANTotal>17673</ANTotal>
-        <FT>data</FT>
+</AnalyseLog>
+    </Order>
+    <Order>
+        <OrderName>VRL009900</OrderName>
+        <Customer>Porsche Česká republika s.r.o.</Customer>
+        <Marke>VW</Marke>
+        <CatNum></CatNum>
+        <Type>RLF</Type>
+        <Section></Section>
+        <DateIn>16.12.2018</DateIn>
+        <Termin>2017-02-22 00:00:00.0</Termin>
+        <NameGe></NameGe>
+        <Name>V6.0_Crafter_2017_Heizung, Klimaanlage</Name>
+        <AnalyseScheme>VW 08</AnalyseScheme>
+        <ANXTranslated>15547</ANXTranslated>
+        <ANXTranslated>257</ANXTranslated>
+        <AN100>1253</AN100>
+        <AN99_95>171</AN99_95>
+        <AN94_85>0</AN94_85>
+        <AN84_75>215</AN84_75>
+        <AN74_50>0</AN74_50>
+        <AN0>230</AN0>
+        <ANTotal>17673</ANTotal>
+        <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
 Call order;;;
 Call order number;1208301;;
@@ -538,30 +214,30 @@ Repetitions;257;0,000;0,000
 75 - 94% match;215;0,000;0,000
 0 - 74% match;230;0,000;0,000
 Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL010000</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-04-13 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V12.0_Caddy_2004_4-Zyl. Dieselmotor (2,0 l-Motor, 2-Ventiler)</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>5735</ANXTranslated>
-        <ANXTranslated>1067</ANXTranslated>
-        <AN100>5928</AN100>
-        <AN99_95>778</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>10</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>0</AN0>
-        <ANTotal>13518</ANTotal>
-        <FT>data</FT>
+</AnalyseLog>
+    </Order>
+    <Order>
+        <OrderName>VRL010000</OrderName>
+        <Customer>Porsche Česká republika s.r.o.</Customer>
+        <Marke>VW</Marke>
+        <CatNum></CatNum>
+        <Type>RLF</Type>
+        <Section></Section>
+        <DateIn>16.12.2018</DateIn>
+        <Termin>2017-04-13 00:00:00.0</Termin>
+        <NameGe></NameGe>
+        <Name>V12.0_Caddy_2004_4-Zyl. Dieselmotor (2,0 l-Motor, 2-Ventiler)</Name>
+        <AnalyseScheme>VW 08</AnalyseScheme>
+        <ANXTranslated>5735</ANXTranslated>
+        <ANXTranslated>1067</ANXTranslated>
+        <AN100>5928</AN100>
+        <AN99_95>778</AN99_95>
+        <AN94_85>0</AN94_85>
+        <AN84_75>10</AN84_75>
+        <AN74_50>0</AN74_50>
+        <AN0>0</AN0>
+        <ANTotal>13518</ANTotal>
+        <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
 Call order;;;
 Call order number;1208878;;
@@ -595,30 +271,30 @@ Repetitions;1067;0,000;0,000
 75 - 94% match;10;0,000;0,000
 0 - 74% match;0;0,000;0,000
 Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL010114</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>25.11.2018</DateIn>
-        <Termin>2017-03-06 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V17.0_Golf Variant_2007_Heizung, Klimaanlage</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>14188</ANXTranslated>
-        <ANXTranslated>0</ANXTranslated>
-        <AN100>148</AN100>
-        <AN99_95>0</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>25</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>3</AN0>
-        <ANTotal>14364</ANTotal>
-        <FT>data</FT>
+</AnalyseLog>
+    </Order>
+    <Order>
+        <OrderName>VRL010114</OrderName>
+        <Customer>Porsche Česká republika s.r.o.</Customer>
+        <Marke>VW</Marke>
+        <CatNum></CatNum>
+        <Type>RLF</Type>
+        <Section></Section>
+        <DateIn>16.12.2018</DateIn>
+        <Termin>2017-03-06 00:00:00.0</Termin>
+        <NameGe></NameGe>
+        <Name>V17.0_Golf Variant_2007_Heizung, Klimaanlage</Name>
+        <AnalyseScheme>VW 08</AnalyseScheme>
+        <ANXTranslated>14188</ANXTranslated>
+        <ANXTranslated>0</ANXTranslated>
+        <AN100>148</AN100>
+        <AN99_95>0</AN99_95>
+        <AN94_85>0</AN94_85>
+        <AN84_75>25</AN84_75>
+        <AN74_50>0</AN74_50>
+        <AN0>3</AN0>
+        <ANTotal>14364</ANTotal>
+        <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
 Call order;;;
 Call order number;6604189;;
@@ -652,6 +328,6 @@ Repetitions;0;;
 95 - 99% match (including multiple 100 % matches);0;;
 75 - 94% match;25;;
 0 - 74% match;3;;
-</AnalyseLog>
-    </Order>
+</AnalyseLog>
+    </Order>
 </Import>

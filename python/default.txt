@@ -1,1 +1,1 @@
-/home/emania/Documents/parser/data
+C:\Users\jan\Documents\Projects\parser\data
