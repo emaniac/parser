@@ -41,7 +41,9 @@ def main(entry):
                 with tag("DateIn"):
                     text(DATE)
                 with tag("Termin"):
-                    text(records["delivery date"][0])
+                    s = records["delivery date"][0].split(" ")[0].split("-")
+                    s = ".".join([s[2].zfill(2), s[1].zfill(2), s[0]])
+                    text(s)
                 with tag("NameGe"):
                     text("")
                 with tag("Name"):
