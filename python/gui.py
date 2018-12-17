@@ -11,6 +11,7 @@ from platform import platform
 
 WIN7 = "Windows-7" in platform()
 WIN10 = "Windows-10" in platform()
+LINUX = "Linux" in platform()
 
 
 SIZE = 500, 800
@@ -229,7 +230,9 @@ def init_logging():
     if WIN7:
         dest = "C:\\Users\\jirka\\Desktop\\Parser\\parser-home\\parser-home\\python\\log.txt"
     elif WIN10:
-        "C:/Users/jan/Documents/Projects/parser/python/file.log"
+        dest = "C:/Users/jan/Documents/Projects/parser/python/file.log"
+    elif LINUX:
+        dest = "/home/emania/Documents/projects/parser/data/file.log"
     else:
         error("Not supported on this operating system: {}".format(platform()))
 
