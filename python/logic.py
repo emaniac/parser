@@ -4,6 +4,11 @@ from gui import warning, error, info, init_logging
 import logging
 import yattag
 
+
+def get(d, n1, n2):
+    return d[n1.lower()] if n1.lower() in d else d[n2.lower()]
+
+
 def main(entry):
     logging.info("Parsing started,")
     FILES = entry['files']
@@ -27,7 +32,8 @@ def main(entry):
             records, document = process_file(file)
             with tag('Order'):
                 with tag('OrderName'):
-                    text(records["translation order number"][0])
+                    s = get(records, "translation order number", "abrufauftragsnummer")
+                    text(s[0])
                 with tag("Customer"):
                     text(customer)
                 with tag("Marke"):
@@ -41,37 +47,48 @@ def main(entry):
                 with tag("DateIn"):
                     text(DATE)
                 with tag("Termin"):
-                    s = records["delivery date"][0].split(" ")[0].split("-")
+                    s = get(records, "delivery date", "lieferdatum")
+                    s = s[0].split(" ")[0].split("-")
                     s = ".".join([s[2].zfill(2), s[1].zfill(2), s[0]])
                     text(s)
                 with tag("NameGe"):
                     text("")
                 with tag("Name"):
-                    text(records["document title"][0])
+                    s = get(records, "document title", "dokumententitel")
+                    text(s[0])
                 with tag("AnalyseScheme"):
                     text(SCHEME)
                 with tag("ANXTranslated"):
-                    tmp1 = int(records['perfect match (words that match perfectly)'][0])
-                    tmp2 = int(records['context (words that match in context)'][0])
+                    s = get(records, "perfect match (words that match perfectly)", "perfect match (wörter, die mit perfectmatch übereinstimmen)")
+                    tmp1 = int(s[0])
+                    s = get(records, "context (words that match in context)", "context (wörter, die im kontext übereinstimmen)")
+                    tmp2 = int(s[0])
                     text(str(tmp1 + tmp2))
                 with tag("ANXTranslated"):
-                    tmp1 = int(records['file repetitions (words that match across files)'][0])
-                    tmp2 = int(records['repetitions'][0])
+                    s = get(records, 'file repetitions (words that match across files)', 'file repetitions (wörter, die dateiübergreifend übereinstimmen)')
+                    tmp1 = int(s[0])
+                    s = get(records, 'repetitions', 'repetitions (wortwiederholungen)')
+                    tmp2 = int(s[0])
                     text(str(tmp1 + tmp2))
                 with tag("AN100"):
-                    text(records["100% match (excluding multiple 100% matches)"][0])
+                    s = get(records, "100% match (excluding multiple 100% matches)", "100 prozent übereinstimmungen (exklusive mehrfache 100% matches)")
+                    text(s[0])
                 with tag("AN99_95"):
-                    text(records["95 - 99% match (including multiple 100 % matches)"][0])
+                    s = get(records, "95 - 99% match (including multiple 100 % matches)", "95 - 99 Prozent übereinstimmungen (inklusive mehrfache 100% matches)")
+                    text(s[0])
                 with tag("AN94_85"):
                     text("0")
                 with tag("AN84_75"):
-                    text(records["75 - 94% match"][0])
+                    s = get(records, "75 - 94% match", "75 - 94 prozent übereinstimmungen")
+                    text(s[0])
                 with tag("AN74_50"):
                     text("0")
                 with tag("AN0"):
-                    text(records["0 - 74% match"][0])
+                    s = get(records, "0 - 74% match", "0 - 74 prozent übereinstimmungen")
+                    text(s[0])
                 with tag("ANTotal"):
-                    text(records['total number of words'][0])
+                    s = get(records, "total number of words", "gesamtzahl der wörter")
+                    text(s[0])
                 with tag("FT"):
                     text(FT)
                 with tag("AnalyseLog"):

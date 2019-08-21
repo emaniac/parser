@@ -1,333 +1,268 @@
 <?xml version='1.0' encoding='windows-1250' ?>
 <Import>
     <Order>
-        <OrderName>VRL009899</OrderName>
+        <OrderName>107704</OrderName>
         <Customer>Porsche Česká republika s.r.o.</Customer>
         <Marke>VW</Marke>
         <CatNum></CatNum>
         <Type>RLF</Type>
         <Section></Section>
-        <DateIn>16.12.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
+        <DateIn>21.08.2019</DateIn>
+        <Termin>05.09.2019</Termin>
         <NameGe></NameGe>
-        <Name>V4.0_Crafter_2017_Kommunikation</Name>
+        <Name>Übersetzungsprojekt Paket 01 Editionen 2019.11</Name>
         <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>5386</ANXTranslated>
-        <ANXTranslated>202</ANXTranslated>
-        <AN100>539</AN100>
-        <AN99_95>310</AN99_95>
+        <ANXTranslated>25610</ANXTranslated>
+        <ANXTranslated>386</ANXTranslated>
+        <AN100>1412</AN100>
+        <AN99_95>189</AN99_95>
         <AN94_85>0</AN94_85>
-        <AN84_75>505</AN84_75>
+        <AN84_75>135</AN84_75>
         <AN74_50>0</AN74_50>
-        <AN0>502</AN0>
-        <ANTotal>7444</ANTotal>
+        <AN0>87</AN0>
+        <ANTotal>27819</ANTotal>
         <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;1208205;;
-Translation order number;VRL009899;;
-Order date;2017-02-01 12:33:56.813;;
-Delivery date;2017-02-22 00:00:00.0;;
-Collective account number;;;
-Account assignment;48395000/2945;;
-Brand and location;VW_12;;
-Surname of customer;Darius Porebski;;
-Department of customer;A-GHET-TW;;
-Telephone number of customer;+49-5361-8389-9257;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Fahrzeugelektrik;;
-Document title;V4.0_Crafter_2017_Kommunikation;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;1;;
-Total number of words;7444;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);340;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);5046;0,000;0,000
-Repetitions;202;0,000;0,000
-100% match (excluding multiple 100% matches);539;0,000;0,000
-95 - 99% match (including multiple 100 % matches);310;0,000;0,000
-75 - 94% match;505;0,000;0,000
-0 - 74% match;502;0,000;0,000
-Total;;;0,000
+Abrufauftrag;;;
+Abrufauftragsnummer;107704;;
+Übersetzungsauftragsnummer;VCO000318;;
+Auftragsdatum;2019-08-16 02:29:37.75;;
+Lieferdatum;2019-09-05 00:00:00.0;;
+Werkauftragsnummer;;;
+Kontierung;899751001;;
+Marke und Standort;VW_11;;
+Name des Auftraggebers;Agathe Jezyna;;
+Abteilung des Auftraggebers;VST/F;;
+Telefonnummer des Auftraggebers;05361-936736;;
+Faxnummer des Auftraggebers;;;
+Dokumententyp;K4;;
+Dokumentensubtyp;;;
+Dokumententitel;Übersetzungsprojekt Paket 01 Editionen 2019.11;;
+Quellsprache;Deutsch (Deutschland);;
+Zielsprache;Tschechisch (Tschechien);;
+Anzahl der Dateien;142;;
+Gesamtzahl der Wörter;27819;;
+Detailanalyse;Wörter;Preis pro Wort;
+Perfect Match (Wörter, die mit PerfectMatch übereinstimmen);0;;
+File Repetitions (Wörter, die dateiübergreifend übereinstimmen);345;;
+Context (Wörter, die im Kontext übereinstimmen);25610;;
+Repetitions (Wortwiederholungen);41;;
+100 Prozent Übereinstimmungen (exklusive mehrfache 100% Matches);1412;;
+95 - 99 Prozent Übereinstimmungen (inklusive mehrfache 100% Matches);189;;
+75 - 94 Prozent Übereinstimmungen;135;;
+0 - 74 Prozent Übereinstimmungen;87;;
 </AnalyseLog>
     </Order>
     <Order>
-        <OrderName>VRL009906</OrderName>
+        <OrderName>107783</OrderName>
         <Customer>Porsche Česká republika s.r.o.</Customer>
         <Marke>VW</Marke>
         <CatNum></CatNum>
         <Type>RLF</Type>
         <Section></Section>
-        <DateIn>16.12.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
+        <DateIn>21.08.2019</DateIn>
+        <Termin>05.09.2019</Termin>
         <NameGe></NameGe>
-        <Name>V3.0_Crafter_2017_Automatisches Getriebe 09Q - 8 Gang</Name>
+        <Name>Übersetzungsprojekt Paket 02 Editionen 2019.11</Name>
         <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>1256</ANXTranslated>
-        <ANXTranslated>73</ANXTranslated>
-        <AN100>137</AN100>
-        <AN99_95>184</AN99_95>
+        <ANXTranslated>38739</ANXTranslated>
+        <ANXTranslated>2525</ANXTranslated>
+        <AN100>4059</AN100>
+        <AN99_95>979</AN99_95>
         <AN94_85>0</AN94_85>
-        <AN84_75>75</AN84_75>
+        <AN84_75>486</AN84_75>
         <AN74_50>0</AN74_50>
-        <AN0>44</AN0>
-        <ANTotal>1769</ANTotal>
+        <AN0>1422</AN0>
+        <ANTotal>48210</ANTotal>
         <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;1208241;;
-Translation order number;VRL009906;;
-Order date;2017-02-01 12:42:03.962;;
-Delivery date;2017-02-22 00:00:00.0;;
-Collective account number;;;
-Account assignment;48395000/2945;;
-Brand and location;VW_12;;
-Surname of customer;Darius Porebski;;
-Department of customer;A-GHET-TW;;
-Telephone number of customer;+49-5361-8389-9257;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Kraftübertragung;;
-Document title;V3.0_Crafter_2017_Automatisches Getriebe 09Q - 8 Gang;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;1;;
-Total number of words;1769;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);403;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);853;0,000;0,000
-Repetitions;73;0,000;0,000
-100% match (excluding multiple 100% matches);137;0,000;0,000
-95 - 99% match (including multiple 100 % matches);184;0,000;0,000
-75 - 94% match;75;0,000;0,000
-0 - 74% match;44;0,000;0,000
-Total;;;0,000
+Abrufauftrag;;;
+Abrufauftragsnummer;107783;;
+Übersetzungsauftragsnummer;VCO000319;;
+Auftragsdatum;2019-08-16 11:41:51.145;;
+Lieferdatum;2019-09-05 00:00:00.0;;
+Werkauftragsnummer;;;
+Kontierung;899751001;;
+Marke und Standort;VW_11;;
+Name des Auftraggebers;Agathe Jezyna;;
+Abteilung des Auftraggebers;VST/F;;
+Telefonnummer des Auftraggebers;05361-936736;;
+Faxnummer des Auftraggebers;;;
+Dokumententyp;K4;;
+Dokumentensubtyp;;;
+Dokumententitel;Übersetzungsprojekt Paket 02 Editionen 2019.11;;
+Quellsprache;Deutsch (Deutschland);;
+Zielsprache;Tschechisch (Tschechien);;
+Anzahl der Dateien;146;;
+Gesamtzahl der Wörter;48210;;
+Detailanalyse;Wörter;Preis pro Wort;
+Perfect Match (Wörter, die mit PerfectMatch übereinstimmen);0;;
+File Repetitions (Wörter, die dateiübergreifend übereinstimmen);2454;;
+Context (Wörter, die im Kontext übereinstimmen);38739;;
+Repetitions (Wortwiederholungen);71;;
+100 Prozent Übereinstimmungen (exklusive mehrfache 100% Matches);4059;;
+95 - 99 Prozent Übereinstimmungen (inklusive mehrfache 100% Matches);979;;
+75 - 94 Prozent Übereinstimmungen;486;;
+0 - 74 Prozent Übereinstimmungen;1422;;
 </AnalyseLog>
     </Order>
     <Order>
-        <OrderName>VRL009908</OrderName>
+        <OrderName>107822</OrderName>
         <Customer>Porsche Česká republika s.r.o.</Customer>
         <Marke>VW</Marke>
         <CatNum></CatNum>
         <Type>RLF</Type>
         <Section></Section>
-        <DateIn>16.12.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
+        <DateIn>21.08.2019</DateIn>
+        <Termin>05.09.2019</Termin>
         <NameGe></NameGe>
-        <Name>V4.0_Crafter_2017_Kardanwelle und Achsantrieb hinten</Name>
+        <Name>Übersetzungsprojekt Paket 03 Editionen 2019.11</Name>
         <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>1596</ANXTranslated>
-        <ANXTranslated>286</ANXTranslated>
-        <AN100>163</AN100>
-        <AN99_95>111</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>131</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>122</AN0>
-        <ANTotal>2409</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;1208255;;
-Translation order number;VRL009908;;
-Order date;2017-02-01 12:44:03.432;;
-Delivery date;2017-02-22 00:00:00.0;;
-Collective account number;;;
-Account assignment;48395000/2945;;
-Brand and location;VW_12;;
-Surname of customer;Darius Porebski;;
-Department of customer;A-GHET-TW;;
-Telephone number of customer;+49-5361-8389-9257;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Kraftübertragung;;
-Document title;V4.0_Crafter_2017_Kardanwelle und Achsantrieb hinten;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;1;;
-Total number of words;2409;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);433;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);1163;0,000;0,000
-Repetitions;286;0,000;0,000
-100% match (excluding multiple 100% matches);163;0,000;0,000
-95 - 99% match (including multiple 100 % matches);111;0,000;0,000
-75 - 94% match;131;0,000;0,000
-0 - 74% match;122;0,000;0,000
-Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL009900</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>16.12.2018</DateIn>
-        <Termin>2017-02-22 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V6.0_Crafter_2017_Heizung, Klimaanlage</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>15547</ANXTranslated>
-        <ANXTranslated>257</ANXTranslated>
-        <AN100>1253</AN100>
-        <AN99_95>171</AN99_95>
-        <AN94_85>0</AN94_85>
-        <AN84_75>215</AN84_75>
-        <AN74_50>0</AN74_50>
-        <AN0>230</AN0>
-        <ANTotal>17673</ANTotal>
-        <FT>data</FT>
-        <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;1208301;;
-Translation order number;VRL009900;;
-Order date;2017-02-01 13:20:08.737;;
-Delivery date;2017-02-22 00:00:00.0;;
-Collective account number;;;
-Account assignment;48395000/2945;;
-Brand and location;VW_12;;
-Surname of customer;Darius Porebski;;
-Department of customer;A-GHET-TW;;
-Telephone number of customer;+49-5361-8389-9257;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Heizung-Lüftung-Klimaanlage;;
-Document title;V6.0_Crafter_2017_Heizung, Klimaanlage;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Number of files;1;;
-Total number of words;17673;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);4757;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);10790;0,000;0,000
-Repetitions;257;0,000;0,000
-100% match (excluding multiple 100% matches);1253;0,000;0,000
-95 - 99% match (including multiple 100 % matches);171;0,000;0,000
-75 - 94% match;215;0,000;0,000
-0 - 74% match;230;0,000;0,000
-Total;;;0,000
-</AnalyseLog>
-    </Order>
-    <Order>
-        <OrderName>VRL010000</OrderName>
-        <Customer>Porsche Česká republika s.r.o.</Customer>
-        <Marke>VW</Marke>
-        <CatNum></CatNum>
-        <Type>RLF</Type>
-        <Section></Section>
-        <DateIn>16.12.2018</DateIn>
-        <Termin>2017-04-13 00:00:00.0</Termin>
-        <NameGe></NameGe>
-        <Name>V12.0_Caddy_2004_4-Zyl. Dieselmotor (2,0 l-Motor, 2-Ventiler)</Name>
-        <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>5735</ANXTranslated>
-        <ANXTranslated>1067</ANXTranslated>
-        <AN100>5928</AN100>
+        <ANXTranslated>32041</ANXTranslated>
+        <ANXTranslated>301</ANXTranslated>
+        <AN100>1847</AN100>
         <AN99_95>778</AN99_95>
         <AN94_85>0</AN94_85>
-        <AN84_75>10</AN84_75>
+        <AN84_75>537</AN84_75>
         <AN74_50>0</AN74_50>
-        <AN0>0</AN0>
-        <ANTotal>13518</ANTotal>
+        <AN0>896</AN0>
+        <ANTotal>36400</ANTotal>
         <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;1208878;;
-Translation order number;VRL010000;;
-Order date;2017-02-22 07:57:35.464;;
-Delivery date;2017-04-13 00:00:00.0;;
-Collective account number;;;
-Account assignment;48395000/2945;;
-Brand and location;VW_12;;
-Surname of customer;Darius Porebski;;
-Department of customer;A-GHET-TW;;
-Telephone number of customer;+49-5361-8389-9257;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Antriebsaggregat;;
-Document title;V12.0_Caddy_2004_4-Zyl. Dieselmotor (2,0 l-Motor, 2-Ventiler);;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Vehicle data;;;
-Model key;Vehicle model;Year of launch;Model year
-2K0;Caddy;2004;0
-Number of files;1;;
-Total number of words;13518;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);0;0,000;0,000
-File repetitions (words that match across files);0;0,000;0,000
-Context (words that match in context);5735;0,000;0,000
-Repetitions;1067;0,000;0,000
-100% match (excluding multiple 100% matches);5928;0,000;0,000
-95 - 99% match (including multiple 100 % matches);778;0,000;0,000
-75 - 94% match;10;0,000;0,000
-0 - 74% match;0;0,000;0,000
-Total;;;0,000
+Abrufauftrag;;;
+Abrufauftragsnummer;107822;;
+Übersetzungsauftragsnummer;VCO000320;;
+Auftragsdatum;2019-08-16 20:53:57.506;;
+Lieferdatum;2019-09-05 00:00:00.0;;
+Werkauftragsnummer;;;
+Kontierung;899751001;;
+Marke und Standort;VW_11;;
+Name des Auftraggebers;Agathe Jezyna;;
+Abteilung des Auftraggebers;VST/F;;
+Telefonnummer des Auftraggebers;05361-936736;;
+Faxnummer des Auftraggebers;;;
+Dokumententyp;K4;;
+Dokumentensubtyp;;;
+Dokumententitel;Übersetzungsprojekt Paket 03 Editionen 2019.11;;
+Quellsprache;Deutsch (Deutschland);;
+Zielsprache;Tschechisch (Tschechien);;
+Anzahl der Dateien;147;;
+Gesamtzahl der Wörter;36400;;
+Detailanalyse;Wörter;Preis pro Wort;
+Perfect Match (Wörter, die mit PerfectMatch übereinstimmen);0;;
+File Repetitions (Wörter, die dateiübergreifend übereinstimmen);258;;
+Context (Wörter, die im Kontext übereinstimmen);32041;;
+Repetitions (Wortwiederholungen);43;;
+100 Prozent Übereinstimmungen (exklusive mehrfache 100% Matches);1847;;
+95 - 99 Prozent Übereinstimmungen (inklusive mehrfache 100% Matches);778;;
+75 - 94 Prozent Übereinstimmungen;537;;
+0 - 74 Prozent Übereinstimmungen;896;;
 </AnalyseLog>
     </Order>
     <Order>
-        <OrderName>VRL010114</OrderName>
+        <OrderName>107860</OrderName>
         <Customer>Porsche Česká republika s.r.o.</Customer>
         <Marke>VW</Marke>
         <CatNum></CatNum>
         <Type>RLF</Type>
         <Section></Section>
-        <DateIn>16.12.2018</DateIn>
-        <Termin>2017-03-06 00:00:00.0</Termin>
+        <DateIn>21.08.2019</DateIn>
+        <Termin>05.09.2019</Termin>
         <NameGe></NameGe>
-        <Name>V17.0_Golf Variant_2007_Heizung, Klimaanlage</Name>
+        <Name>Übersetzungsprojekt Paket 04 Editionen 2019.11</Name>
         <AnalyseScheme>VW 08</AnalyseScheme>
-        <ANXTranslated>14188</ANXTranslated>
-        <ANXTranslated>0</ANXTranslated>
-        <AN100>148</AN100>
-        <AN99_95>0</AN99_95>
+        <ANXTranslated>33848</ANXTranslated>
+        <ANXTranslated>1199</ANXTranslated>
+        <AN100>2753</AN100>
+        <AN99_95>668</AN99_95>
         <AN94_85>0</AN94_85>
-        <AN84_75>25</AN84_75>
+        <AN84_75>361</AN84_75>
         <AN74_50>0</AN74_50>
-        <AN0>3</AN0>
-        <ANTotal>14364</ANTotal>
+        <AN0>140</AN0>
+        <ANTotal>38969</ANTotal>
         <FT>data</FT>
         <AnalyseLog>c1;c2;c3;c4
-Call order;;;
-Call order number;6604189;;
-Translation order number;VRL010114;;
-Order date;2017-02-21 19:49:56.91;;
-Delivery date;2017-03-06 00:00:00.0;;
-Collective account number;;;
-Account assignment;49520000/8087;;
-Brand and location;VW_66;;
-Surname of customer;Guy Knight-Jones;;
-Department of customer;VST/22;;
-Telephone number of customer;+49-5361-9-27185;;
-Fax number of customer;;;
-Document type;RL;;
-Document subtype;Heizung-Lüftung-Klimaanlage;;
-Document title;V17.0_Golf Variant_2007_Heizung, Klimaanlage;;
-Source language;German (Germany);;
-Target language;Czech (Czech Republic);;
-Vehicle data;;;
-Model key;Vehicle model;Year of launch;Model year
-1K5;Golf Variant;2007;0
-AJ5;Jetta;2010;0
-Number of files;1;;
-Total number of words;14364;;
-Detailed analysis;Words;Price per word;
-Perfect match (words that match perfectly);347;;
-File repetitions (words that match across files);0;;
-Context (words that match in context);13841;;
-Repetitions;0;;
-100% match (excluding multiple 100% matches);148;;
-95 - 99% match (including multiple 100 % matches);0;;
-75 - 94% match;25;;
-0 - 74% match;3;;
+Abrufauftrag;;;
+Abrufauftragsnummer;107860;;
+Übersetzungsauftragsnummer;VCO000321;;
+Auftragsdatum;2019-08-17 06:06:30.494;;
+Lieferdatum;2019-09-05 00:00:00.0;;
+Werkauftragsnummer;;;
+Kontierung;899751001;;
+Marke und Standort;VW_11;;
+Name des Auftraggebers;Agathe Jezyna;;
+Abteilung des Auftraggebers;VST/F;;
+Telefonnummer des Auftraggebers;05361-936736;;
+Faxnummer des Auftraggebers;;;
+Dokumententyp;K4;;
+Dokumentensubtyp;;;
+Dokumententitel;Übersetzungsprojekt Paket 04 Editionen 2019.11;;
+Quellsprache;Deutsch (Deutschland);;
+Zielsprache;Tschechisch (Tschechien);;
+Anzahl der Dateien;149;;
+Gesamtzahl der Wörter;38969;;
+Detailanalyse;Wörter;Preis pro Wort;
+Perfect Match (Wörter, die mit PerfectMatch übereinstimmen);0;;
+File Repetitions (Wörter, die dateiübergreifend übereinstimmen);1175;;
+Context (Wörter, die im Kontext übereinstimmen);33848;;
+Repetitions (Wortwiederholungen);24;;
+100 Prozent Übereinstimmungen (exklusive mehrfache 100% Matches);2753;;
+95 - 99 Prozent Übereinstimmungen (inklusive mehrfache 100% Matches);668;;
+75 - 94 Prozent Übereinstimmungen;361;;
+0 - 74 Prozent Übereinstimmungen;140;;
+</AnalyseLog>
+    </Order>
+    <Order>
+        <OrderName>107897</OrderName>
+        <Customer>Porsche Česká republika s.r.o.</Customer>
+        <Marke>VW</Marke>
+        <CatNum></CatNum>
+        <Type>RLF</Type>
+        <Section></Section>
+        <DateIn>21.08.2019</DateIn>
+        <Termin>05.09.2019</Termin>
+        <NameGe></NameGe>
+        <Name>Übersetzungsprojekt Paket 05 Editionen 2019.11</Name>
+        <AnalyseScheme>VW 08</AnalyseScheme>
+        <ANXTranslated>22626</ANXTranslated>
+        <ANXTranslated>3757</ANXTranslated>
+        <AN100>4081</AN100>
+        <AN99_95>859</AN99_95>
+        <AN94_85>0</AN94_85>
+        <AN84_75>963</AN84_75>
+        <AN74_50>0</AN74_50>
+        <AN0>415</AN0>
+        <ANTotal>32701</ANTotal>
+        <FT>data</FT>
+        <AnalyseLog>c1;c2;c3;c4
+Abrufauftrag;;;
+Abrufauftragsnummer;107897;;
+Übersetzungsauftragsnummer;VCO000322;;
+Auftragsdatum;2019-08-17 16:20:13.437;;
+Lieferdatum;2019-09-05 00:00:00.0;;
+Werkauftragsnummer;;;
+Kontierung;899751001;;
+Marke und Standort;VW_11;;
+Name des Auftraggebers;Agathe Jezyna;;
+Abteilung des Auftraggebers;VST/F;;
+Telefonnummer des Auftraggebers;05361-936736;;
+Faxnummer des Auftraggebers;;;
+Dokumententyp;K4;;
+Dokumentensubtyp;;;
+Dokumententitel;Übersetzungsprojekt Paket 05 Editionen 2019.11;;
+Quellsprache;Deutsch (Deutschland);;
+Zielsprache;Tschechisch (Tschechien);;
+Anzahl der Dateien;148;;
+Gesamtzahl der Wörter;32701;;
+Detailanalyse;Wörter;Preis pro Wort;
+Perfect Match (Wörter, die mit PerfectMatch übereinstimmen);0;;
+File Repetitions (Wörter, die dateiübergreifend übereinstimmen);3384;;
+Context (Wörter, die im Kontext übereinstimmen);22626;;
+Repetitions (Wortwiederholungen);373;;
+100 Prozent Übereinstimmungen (exklusive mehrfache 100% Matches);4081;;
+95 - 99 Prozent Übereinstimmungen (inklusive mehrfache 100% Matches);859;;
+75 - 94 Prozent Übereinstimmungen;963;;
+0 - 74 Prozent Übereinstimmungen;415;;
 </AnalyseLog>
     </Order>
 </Import>

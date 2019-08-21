@@ -230,7 +230,11 @@ def init_logging():
     if WIN7:
         dest = "C:\\Users\\jirka\\Desktop\\Parser\\parser-home\\parser-home\\python\\log.txt"
     elif WIN10:
-        dest = "C:/Users/jan/Documents/Projects/parser/python/file.log"
+        directory = "C:/Users/jan/Documents/Projects/parser/python"
+        if os.path.isdir(directory):
+            dest = os.path.join(directory, "parser.log")
+        else:
+            dest = "parser.log"
     elif LINUX:
         dest = "/home/emania/Documents/projects/parser/data/file.log"
     else:

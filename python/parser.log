@@ -1,0 +1,115 @@
+2019-08-21 21:50:25,509:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 21:50:41,386:INFO: selected files: []
+2019-08-21 21:52:40,467:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 21:53:07,824:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 21:53:07,824:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 21:53:13,976:INFO: Executing parser
+2019-08-21 21:53:13,976:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 21:53:13,983:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 21:53:13,983:INFO: Parsing started,
+2019-08-21 21:53:13,983:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 21:53:13,983:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:15:36,779:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 22:15:42,621:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 22:15:42,621:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 22:15:43,576:INFO: Executing parser
+2019-08-21 22:15:43,576:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:15:43,585:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:15:43,585:INFO: Parsing started,
+2019-08-21 22:15:43,586:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:15:43,586:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:16:22,288:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 22:16:27,496:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 22:16:27,496:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 22:16:28,320:INFO: Executing parser
+2019-08-21 22:16:28,320:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:16:28,324:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:16:28,324:INFO: Parsing started,
+2019-08-21 22:16:28,325:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:16:28,325:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:16:54,512:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 22:16:59,933:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 22:16:59,934:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 22:17:00,409:INFO: Executing parser
+2019-08-21 22:17:00,409:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:17:00,419:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:17:00,419:INFO: Parsing started,
+2019-08-21 22:17:00,420:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:17:00,420:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:19:06,416:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 22:19:12,137:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 22:19:12,137:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 22:19:12,793:INFO: Executing parser
+2019-08-21 22:19:12,793:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:19:12,798:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:19:12,798:INFO: Parsing started,
+2019-08-21 22:19:12,798:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:19:12,798:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:19:47,486:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 22:19:52,934:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 22:19:52,935:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 22:19:53,505:INFO: Executing parser
+2019-08-21 22:19:53,506:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:19:53,513:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:19:53,513:INFO: Parsing started,
+2019-08-21 22:19:53,513:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:19:53,513:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:20:11,152:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 22:20:15,261:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 22:20:15,262:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 22:20:16,010:INFO: Executing parser
+2019-08-21 22:20:16,010:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:20:16,019:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:20:16,020:INFO: Parsing started,
+2019-08-21 22:20:16,020:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:20:16,020:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:20:39,419:WARNING: Initial directory C:\Users\jan\Documents\Projects\parser\data could not be found. Change it in default.txt
+2019-08-21 22:20:44,200:INFO: selected files: ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv']
+2019-08-21 22:20:44,200:INFO: selected files 107704.csv
+107783.csv
+107822.csv
+107860.csv
+107897.csv
+2019-08-21 22:20:44,730:INFO: Executing parser
+2019-08-21 22:20:44,730:INFO: entry: {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:20:44,739:INFO: continuing with {'files': ['C:/Users/Jan/Documents/Programs/parser/data/107704.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107783.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107822.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107860.csv', 'C:/Users/Jan/Documents/Programs/parser/data/107897.csv'], 'date': '21.08.2019', 'ft': 'data', 'type': 'RLF', 'marke': 'VW', 'scheme': 'VW 08', 'output': 'output.dar'}
+2019-08-21 22:20:44,739:INFO: Parsing started,
+2019-08-21 22:20:44,740:INFO: processing file 0 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:20:44,740:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107704.csv
+2019-08-21 22:20:44,743:INFO: processing file 1 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107783.csv
+2019-08-21 22:20:44,743:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107783.csv
+2019-08-21 22:20:44,745:INFO: processing file 2 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107822.csv
+2019-08-21 22:20:44,746:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107822.csv
+2019-08-21 22:20:44,755:INFO: processing file 3 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107860.csv
+2019-08-21 22:20:44,755:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107860.csv
+2019-08-21 22:20:44,763:INFO: processing file 4 / 5 : C:/Users/Jan/Documents/Programs/parser/data/107897.csv
+2019-08-21 22:20:44,763:INFO: processing C:/Users/Jan/Documents/Programs/parser/data/107897.csv
+2019-08-21 22:20:44,777:INFO: Saved to file C:/Users/Jan/Documents/Programs/parser/data\output.dar
