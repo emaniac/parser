@@ -265,20 +265,8 @@ def execute_parser():
        logic.main(entry)
 
 def init_logging():
-    if WIN7:
-        dest = "C:\\Users\\jirka\\Desktop\\Parser\\parser-home\\parser-home\\python\\log.txt"
-    elif WIN10:
-        directory = "C:/Users/jan/Documents/Projects/parser/python"
-        if os.path.isdir(directory):
-            dest = os.path.join(directory, "parser.log")
-        else:
-            dest = "parser.log"
-    elif LINUX:
-        dest = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'parser.log.txt')
-    else:
-        error("Not supported on this operating system: {}".format(platform()))
-        raise Exception
-
+    def init_logging():
+    dest = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'log.txt')
     logging.basicConfig(
         format='%(asctime)s:%(levelname)s: %(message)s',
         level=0,
