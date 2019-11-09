@@ -1,0 +1,10 @@
+default_magic:
+  windows:
+    C:\Users\jan\Documents\Projects\parser\data
+  linux:
+    /home/jan/Documents/parser/data
+default_txt:
+  windows:
+    C:\BI
+  linux:
+    /home/jan/Documents/parser/data   

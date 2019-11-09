@@ -1,30 +1,38 @@
+import os
+import time
+import yaml
+import logic
+import logging
+import datetime
+from platform import platform
+from glob import glob
+
 import tkinter as tk
 from tkinter import ttk
-import time
-import datetime
-from tkinter.filedialog import askopenfilenames
-import logging
 from tkinter import messagebox
-import os
-import logic
-from platform import platform
+from tkinter import filedialog
+from tkinter.filedialog import askopenfilenames
+
 
 WIN7 = "Windows-7" in platform()
 WIN10 = "Windows-10" in platform()
 LINUX = "Linux" in platform()
 
 
-SIZE = 500, 800
-font = ("helvetica", 13, "bold")
-entry_font = ("helvetica", 11, )
+SCALE = 1
+SIZE = SCALE * 500, SCALE * 800
+font = ("helvetica", SCALE * 13, "bold")
+entry_font = "helvetica", SCALE * 11
 DATE_FORMAT = "%d.%m.20%y"
 
+X1, X2 = SCALE * 10, SCALE * 75
+WIDTH = SCALE * 400
+HEIGHT = SCALE * 30
+LINING = SCALE * 40
+START = SCALE * 50
 
-X1, X2 = 10, 75
-WIDTH = 400
-HEIGHT = 30
-LINING = 40
-START = 30
+DEFAULT_MAGIC_DIR = ""
+DEFAULT_TXT_DIR = ""
 
 def warning(message):
     logging.warning(message)
@@ -41,41 +49,71 @@ def info(message):
 
 def init_root():
     root = tk.Tk()
+    root.tk.call('tk', 'scaling', SCALE)
     root.geometry("{}x{}".format(*SIZE))
     root.configure(background='white')
     return root
 
 FILES = None
 
-def default_dir():
+def set_default_dirs():
+    """Se the default directories from default.yaml"""
+    global DEFAULT_MAGIC_DIR, DEFAULT_TXT_DIR
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    file = os.path.join(dir_path, "default.txt")
-    try:
-        with open(file) as f:
-            text = f.read().rstrip("\n")
-    except:
-        warning("Could not open {}. Create file \'default.txt\' in the same directory as gui.py "
+    path = os.path.join(dir_path, "default.yaml")
+    system = "linux" if LINUX else "windows"
+
+    # Read the yaml file
+    if os.path.isfile(path):
+        with open(path, 'r') as f:
+            try:
+                data = yaml.safe_load(f)
+            except Exception as e:
+                error(e)
+        if os.path.isdir(data['default_magic'][system]):
+            DEFAULT_MAGIC_DIR = data['default_magic'][system]
+        if os.path.isdir(data['default_txt'][system]):
+            DEFAULT_TXT_DIR = data['default_txt'][system]
+        logging.info("DEFAULT_MAGIC_DIR: {}, DEFAULT_TXT_DIR: {}"
+            .format(DEFAULT_MAGIC_DIR, DEFAULT_TXT_DIR))
+    else:
+        warning("Could not find {}. Create file \'default.yaml\' in the same directory as gui.py "
                 "containing only one line with the default directory".format(file))
-        return False
-    if not os.path.isdir(text):
-        warning("Initial directory {} could not be found. Change it in default.txt".format(text))
-        return False
-    return text
+        logging.warning(e)
+
 
 def choose_files():
     global FILES
-    FILES = list(askopenfilenames(initialdir=def_dir))
+    FILES = list(askopenfilenames(initialdir=DEFAULT_MAGIC_DIR))
     logging.info("selected files: {}".format(FILES))
     if FILES:
         files_dir = os.path.dirname(FILES[0])
         files_dir = os.path.basename(files_dir)
-        ft_entry.insert(0, files_dir)
+        # ft_entry.insert(0, files_dir)
 
         names = [os.path.basename(e) for e in FILES]
         names = "\n".join(names)
         logging.info("selected files {}".format(names))
         files_label.delete('1.0', tk.END)
         files_label.insert(1.0, names)
+
+def choose_txt_files():
+    folder_selected = filedialog.askdirectory(initialdir=DEFAULT_TXT_DIR)
+    regex = os.path.join(folder_selected, "*.txt")
+    files = glob(regex)
+    if files:
+        text = [open(f).read().strip() for f in files]
+        line = "\n======================================\n"
+        text = line.join(text)
+        export = os.path.join(folder_selected, os.path.basename(folder_selected) + '.txt')
+        with open(export, 'w') as f:
+            f.write(text)
+        files_label2.delete('1.0', tk.END)
+        log = ['Processed_files:'] + files + ['Saved_as'] + [export]
+        files_label2.insert(1.0, log)
+    else:
+        warning('Did not find any txt files.')
+
 
 def add_icon(root):
     root_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
@@ -84,7 +122,7 @@ def add_icon(root):
     icon = tk.Label(root,compound="top")
     icon.lenna_image_png = tk.PhotoImage(file=icon_path)
     icon['image'] = icon.lenna_image_png
-    icon.place(x=10, y=10, height=50, width=86)
+    icon.place(x=X1, y=START - SCALE * 20, height=SCALE * 50, width=SCALE * 86)
 
     assert os.path.isfile(icon_path)
 
@@ -92,9 +130,9 @@ def add_icon(root):
 
 def add_files(root):
     Y = START + 0 * LINING
-    width = 100
+    width = SCALE * 100
     bt0 = tk.Button(root, text="Choose files", command=choose_files, font=entry_font + ("bold",))
-    bt0.place(x=X2 + WIDTH - width, y=Y, height=HEIGHT, width=100)
+    bt0.place(x=X2 + WIDTH - width, y=Y, height=HEIGHT, width=SCALE * 100)
 
 def add_date(root):
     Y = START + 1 * LINING
@@ -220,7 +258,7 @@ def parse_entry():
 def execute_parser():
    logging.info("Executing parser")
    entry = parse_entry()
-   if not entry:
+   if not warning:
        error("Did not correctly parse input from user.")
    else:
        logging.info("continuing with {}".format(entry))
@@ -236,32 +274,61 @@ def init_logging():
         else:
             dest = "parser.log"
     elif LINUX:
-        dest = "/home/emania/Documents/projects/parser/data/file.log"
+        dest = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'parser.log.txt')
     else:
         error("Not supported on this operating system: {}".format(platform()))
+        raise Exception
 
     logging.basicConfig(
         format='%(asctime)s:%(levelname)s: %(message)s',
         level=0,
         handlers=[logging.FileHandler(dest), logging.StreamHandler()])
 
-if __name__ == "__main__":
-    init_logging()
-    root = init_root()
-    def_dir = default_dir()
+def add_dir(root):
+    Y = START + 0 * LINING
+    width = SCALE * 100
+    bt0 = tk.Button(root, text="Choose directory", command=choose_txt_files, font=entry_font + ("bold",))
+    bt0.place(x=X1, y=START, height=HEIGHT, width = SCALE * 100)
 
-    add_icon(root)
-    add_files(root)
-    date_entry = add_date(root)
-    ft_entry = add_ft(root)
-    type_combo = add_type(root)
-    marke_combo = add_marke(root)
-    scheme_combo = add_scheme(root)
-    output_entry = add_output(root)
-    add_start(root)
-    files_label = add_files_label(root)
+
+
+def main():
+    global components
+    global date_entry, ft_entry, type_combo, scheme_combo, output_entry, files_label, files_label2
+    set_default_dirs()
+
+    # Create tabs
+    root = init_root()
+    tab_parent = ttk.Notebook(root)
+    tab1 = ttk.Frame(tab_parent)
+    tab2 = ttk.Frame(tab_parent)
+    tab_parent.add(tab1, text="Magic")
+    tab_parent.add(tab2, text="Parser")
+    tab_parent.pack(expand=1, fill='both')
+
+    # Magic
+    add_icon(tab1)
+    add_files(tab1)
+    date_entry = add_date(tab1)
+    ft_entry = add_ft(tab1)
+    type_combo = add_type(tab1)
+    marke_combo = add_marke(tab1)
+    scheme_combo = add_scheme(tab1)
+    output_entry = add_output(tab1)
+    add_start(tab1)
+    files_label = add_files_label(tab1)
+
+    # Parser
+    _ = add_dir(tab2)
+    files_label2 = add_files_label(tab2)
 
     components = {"date" : date_entry, "ft" : ft_entry, "type" : type_combo, "marke" : marke_combo,
                   "scheme" : scheme_combo, "output" : output_entry}
-
     root.mainloop()
+
+if __name__ == "__main__":
+    init_logging()
+    try:
+        main()
+    except Exception as e:
+        error(e)
