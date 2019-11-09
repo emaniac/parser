@@ -265,7 +265,6 @@ def execute_parser():
        logic.main(entry)
 
 def init_logging():
-    def init_logging():
     dest = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'log.txt')
     logging.basicConfig(
         format='%(asctime)s:%(levelname)s: %(message)s',
