@@ -32,7 +32,7 @@ def main(entry):
             records, document = process_file(file)
             with tag('Order'):
                 with tag('OrderName'):
-                    s = get(records, "translation order number", "abrufauftragsnummer")
+                    s = get(records, "translation order number", "übersetzungsauftragsnummer")
                     text(s[0])
                 with tag("Customer"):
                     text(customer)
