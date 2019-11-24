@@ -2,3 +2,6 @@ python/.idea/
 __pycache__
 python/file.log
 .idea
+data/csv/output.dar
+data/txt.txt
+log.txt

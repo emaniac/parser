@@ -105,7 +105,8 @@ def choose_txt_files():
         text = [open(f).read().strip() for f in files]
         line = "\n======================================\n"
         text = line.join(text)
-        export = os.path.join(folder_selected, os.path.basename(folder_selected) + '.txt')
+        dir_up = os.path.join(folder_selected, os.path.pardir)
+        export = os.path.join(dir_up, os.path.basename(folder_selected) + '.txt')
         with open(export, 'w') as f:
             f.write(text)
         files_label2.delete('1.0', tk.END)
