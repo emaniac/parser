@@ -1,0 +1,32 @@
+c1;c2;c3;c4
+Call order;;;
+Call order number;6611238;;
+Translation order number;VRL013601;;
+Order date;2019-11-23 00:35:59.301;;
+Delivery date;2019-12-12 00:00:00.0;;
+Collective account number;;;
+Account assignment;49520000/8087;;
+Brand and location;VW_66;;
+Surname of customer;Guy Knight-Jones;;
+Department of customer;VST/F1;;
+Telephone number of customer;+49-5361-9-27185;;
+Fax number of customer;;;
+Document type;RL;;
+Document subtype;Heizung-Lüftung-Klimaanlage;;
+Document title;V2.0_Jetta_2011_Heizung, Klimaanlage;;
+Source language;German (Germany);;
+Target language;Czech (Czech Republic);;
+Vehicle data;;;
+Model key;Vehicle model;Year of launch;Model year
+162;Jetta;2011;0
+Number of files;1;;
+Total number of words;18315;;
+Detailed analysis;Words;Price per word;
+Perfect match (words that match perfectly);3441;;
+File repetitions (words that match across files);0;;
+Context (words that match in context);14128;;
+Repetitions;0;;
+100% match (excluding multiple 100% matches);705;;
+95 - 99% match (including multiple 100 % matches);9;;
+75 - 94% match;32;;
+0 - 74% match;0;;

@@ -32,8 +32,14 @@ def main(entry):
             records, document = process_file(file)
             with tag('Order'):
                 with tag('OrderName'):
-                    s = get(records, "translation order number", "übersetzungsauftragsnummer")
-                    text(s[0])
+                    s = get(records, "translation order number", "übersetzungsauftragsnummer")[0]
+                    try:
+	                    s2 = get(records, "Brand and location", 'Brand and location')
+	                    s = "{} - {}".format(s2[0], s)
+                    except:
+                    	pass
+
+                    text(s)
                 with tag("Customer"):
                     text(customer)
                 with tag("Marke"):
